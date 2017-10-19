@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dji.videostreamdecodingsample.MainActivity">
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:paddingEnd="60dp"
+        android:paddingStart="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+
+        <Button
+            android:id="@+id/complete_ui_widgets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_margin="10dp"
+            android:padding="14dp"
+            android:textColor="@color/background_blue"
+            android:text="Get Started!"/>
+        <!--
+        <Button
+            android:id="@+id/bt_customized_ui_widgets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_margin="10dp"
+            android:padding="14dp"
+            android:textColor="@color/background_blue"
+            android:text="Demo on Customized UI Widgets"/>
+        -->
+        <TableRow
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+    </TableLayout>
+
+
+</android.support.constraint.ConstraintLayout>
